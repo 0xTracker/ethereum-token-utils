@@ -1,0 +1,43 @@
+{
+  "name": "ethereum-token-utils",
+  "version": "1.0.0",
+  "description": "Utilities for working with Ethereum tokens.",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xTracker/ethereum-token-utils.git"
+  },
+  "keywords": [
+    "ethereum",
+    "web3"
+  ],
+  "author": "Craig Bovis",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/0xTracker/ethereum-token-utils/issues"
+  },
+  "devDependencies": {
+    "dotenv-safe": "8.2.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": "4.2.3",
+    "jest": "25.1.0",
+    "lint-staged": "10.0.8",
+    "prettier": "1.19.1"
+  },
+  "dependencies": {
+    "ethers": "4.0.45"
+  },
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.x.x"
+  }
+}
