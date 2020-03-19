@@ -6,7 +6,8 @@ const getTokenMetadata = async (address, options) => {
     'function symbol() view returns (string symbol)',
     'function decimals() view returns (uint8 decimals)',
   ];
-  const contract = new ethers.Contract(address, abi, options.provider);
+  const provider = new ethers.providers.JsonRpcProvider(options.rpcEndpoint);
+  const contract = new ethers.Contract(address, abi, provider);
   const handleError = () => {
     return null;
   };
