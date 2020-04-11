@@ -9,7 +9,7 @@ const getTokenMetadata = async (address, options) => {
   const provider = new ethers.providers.JsonRpcProvider(options.rpcEndpoint);
   const contract = new ethers.Contract(address, abi, provider);
   const handleError = () => {
-    return null;
+    return undefined;
   };
 
   const [name, symbol, decimals] = await Promise.all([
