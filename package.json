@@ -34,7 +34,7 @@
     "prettier": "1.19.1"
   },
   "dependencies": {
-    "ethers": "4.0.45"
+    "ethers": "5.0.9"
   },
   "engines": {
     "node": "12.16.1",
